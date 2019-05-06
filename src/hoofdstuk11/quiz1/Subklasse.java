@@ -6,12 +6,15 @@ public class Subklasse extends Superklasse{
 	//originele waarde van y = 3.
 	private int y = 8;
 	
+	//no argument constructor van de class Subklasse
 	public Subklasse() {
 		x+=2;
 		y++;
 		
 		System.out.print( x + ", " + y);
 	}
+	
+	//main method
 	public static void main(String[] args) {
 		Subklasse sk = new Subklasse();
 		
