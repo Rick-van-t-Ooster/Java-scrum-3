@@ -3,6 +3,9 @@ package hoofdstuk11.quiz1;
 public class Subklasse extends Superklasse{
 
 	
+		//Goed bezig !! Ga zo door
+		//JGP Roode 8-5-2019
+	
 	//originele waarde van y = 3.
 	private int y = 8;
 	
