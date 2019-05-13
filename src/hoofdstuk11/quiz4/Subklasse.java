@@ -4,7 +4,7 @@ public class Subklasse extends SuperA
 {
 	public Subklasse()
 	{
-		int x = 0; //als int x niet geïnitialiseerd is runt het programma niet.
+		int x = 0; //als int x niet geïnitialiseerd is runt het programma niet
 		x += 2;
 		y += 3;
 		System.out.print(" x" + x);
