@@ -10,6 +10,6 @@ public class Subklasse extends Superklasse {
 	}
 	public static void main(String[] args) {
 		Subklasse sk = new Subklasse();
-		System.out.println(sk.methodeA(23, "Emma"));
+		System.out.print(sk.methodeA(23, "Emma"));
 	}
 }
