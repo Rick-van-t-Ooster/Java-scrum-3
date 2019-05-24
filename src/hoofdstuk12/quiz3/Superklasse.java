@@ -1,5 +1,5 @@
 package hoofdstuk12.quiz3;
-
+//Gemaakt door Jelle
 public class Superklasse {
 	final int x = 4;
 	

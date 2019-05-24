@@ -1,5 +1,5 @@
 package hoofdstuk12.quiz4;
-
+//Gemaakt door Jelle
 public class Subklasse extends Superklasse{
 	void methodeA(int x, int y) {
 		int z = x - y;

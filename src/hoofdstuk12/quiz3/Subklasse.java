@@ -1,5 +1,5 @@
 package hoofdstuk12.quiz3;
-
+//Gemaakt door Jelle
 public class Subklasse extends Superklasse {
 	int x = 3;
 	String methodeA(String s, int i) {
