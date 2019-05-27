@@ -10,17 +10,18 @@ public class OpstartKlasse {
 		System.out.println("Geef een diameter van een circle om de omtrek & oppervlak te bereken");
 		try {
 
-			double dia = userInput.nextDouble();
-			System.out.println(Waardes.PI);
+			double dia = userInput.nextDouble(); //opvangen user input.
+			
 			System.out.println(dia + "×" + Waardes.PI + "= " + Waardes.berekenOmtrek(dia));
 			System.out.println(dia + "/2 " + "^2×" + Waardes.PI + "= " + Waardes.berekenOppervlak(dia));
 
-		} catch (InputMismatchException e) {
+		} catch (InputMismatchException e) { //zorgt ervoor dat het programma restart bij een ongeldige nummer invoer.
+			
 			System.out.println("Ongeldige input probeer opnieuw.....");
-			main(null);
+			main(null); //herstart het programma zonder arguments.
 		}
 
-		userInput.close();
+		userInput.close(); //sluiten scanner i.v.m. resource leaks.
 	}
 
 }
