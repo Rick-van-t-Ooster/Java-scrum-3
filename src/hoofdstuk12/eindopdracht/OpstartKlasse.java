@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class OpstartKlasse {
 
 	public static void main(String[] args) {
+		//Ricks stukje
 		Scanner userInput = new Scanner(System.in); //Userinput opvangen met een scanner.
 		System.out.println("Geef een diameter van een circle om de omtrek & oppervlak te bereken");
 		try {
@@ -20,7 +21,12 @@ public class OpstartKlasse {
 			System.out.println("Ongeldige input probeer opnieuw.....");
 			main(null); //herstart het programma zonder arguments.
 		}
-
+		
+		//Jelles stukje
+		System.out.println();
+		//Roept de methode op uit de waardes classe genaamt piramide.
+		Waardes.piramide();
+		
 		userInput.close(); //sluiten scanner i.v.m. resource leaks.
 	}
 
