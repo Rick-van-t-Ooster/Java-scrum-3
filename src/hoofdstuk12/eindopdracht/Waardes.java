@@ -1,8 +1,8 @@
 package hoofdstuk12.eindopdracht;
 
-import java.math.BigDecimal; //BigDecimal is een non primitive type voor meerdere getallen.
+import java.math.BigDecimal; //BigDecimal is een non primitive type voor grote decimalen.
 
-public final class Waardes {
+public final class Waardes{
 
 	// (Wiskundige) Waardes Rick
 	public static final double PI = 3.142857142857143;
@@ -17,7 +17,6 @@ public final class Waardes {
 		BigDecimal output = diameter.multiply(BigPI);
 
 		return output;
-
 	}
 
 	// Method om de oppervlak van een cirkel op te vangen
