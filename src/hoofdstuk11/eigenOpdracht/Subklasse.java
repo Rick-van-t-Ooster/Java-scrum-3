@@ -60,6 +60,20 @@ public class Subklasse extends Superklasse {
 		}
 		input.close();
 	}
+	//Method Maarten
+	void mijnMethode()
+	{
+		aantalLiterBenzine++;
+		System.out.print(liter);
+		super.mijnMethode();
+		aantalLiterBenzine += 2;
+		System.out.print(aantalLiterBenzine);
+	}
+	public static void sub(String[] args)
+	{
+		Subklasse sk = new Subklasse(aantalLiterBenzine);
+		sk.mijnMethode();
+	}
 	//2de method door Rick.
 	/*
 	 * Method die het programma draaiend houd door te kijken naar user input.
