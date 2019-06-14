@@ -27,7 +27,7 @@ public class OpstartKlasse {
 		//Roept de methode op uit de waardes classe genaamt piramide.
 		Waardes.piramide();
 		
-		userInput.close(); //sluiten scanner i.v.m. resource leaks.
+		userInput.close(); //sluiten scanner i.v.m. resource leaks. Rick ^
 	}
 
 }
