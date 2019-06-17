@@ -33,7 +33,8 @@ public class Subklasse extends Superklasse {
 		try {
 			int aantal = input.nextInt();
 			/*
-			 * Wanneer het ingevoerde groter is dan de beschikbare plaats in de brandstof tank word er niet getankt.
+			 * Wanneer het ingevoerde groter is dan de
+			 *   beschikbare plaats in de brandstof tank word er niet getankt.
 			 * 
 			 */
 			
