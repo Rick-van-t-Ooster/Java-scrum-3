@@ -2,6 +2,9 @@ package hoofdstuk12.quiz2;
 
 public final class MijnKlasse extends Quiz2 
 {
+	
+	//GEMAAKT DOOR TOM KRUISELBRINK
+	
 	int z = 5;
 	
 	void mijnMethode(int x)

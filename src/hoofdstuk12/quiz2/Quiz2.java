@@ -1,6 +1,9 @@
 package hoofdstuk12.quiz2;
 
 public class Quiz2 {
+	
+	//GEMAAKT DOOR TOM KRUISELBRINK	
+	
 	final void methodeA()
 	{
 		System.out.print("x");
