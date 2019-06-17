@@ -1,5 +1,5 @@
 package hoofdstuk11.quiz4;
-
+//door maarten
 public class SuperB {
 	protected int x = 3;
 	

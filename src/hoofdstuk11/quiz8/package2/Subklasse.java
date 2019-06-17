@@ -1,5 +1,5 @@
 package hoofdstuk11.quiz8.package2;
-
+//door Maarten
 import hoofdstuk11.quiz8.package1.Superklasse;
 
 public class Subklasse extends Superklasse
