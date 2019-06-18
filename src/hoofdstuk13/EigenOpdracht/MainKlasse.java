@@ -1,5 +1,7 @@
 package hoofdstuk13.EigenOpdracht;
 
+import java.util.Scanner;
+
 public class MainKlasse extends AbstrKlasse{
 	
 	public static void main(String[] args) {
@@ -8,5 +10,8 @@ public class MainKlasse extends AbstrKlasse{
 		System.out.println(ab.getDikteKilo() + " Kilo weegt hij nu maar na het eten weegt hij: " + ab.addDikteKilo(10) + " Kilo");
 		System.out.println("Dan gaat hij sporten en rent 20 kilometer en verliest hierdoor 5 kilo totaal.");
 		System.out.println(ab.getDikteKilo() + " Kilo weegt hij nu maar na het sporten weegt hij: " + ab.removeDikteKilo(5) + " Kilo");
+		
+		//begin Rick zijn code 1.
+		ab.customEten();
 	}
 }
